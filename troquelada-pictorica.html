@@ -1,135 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>La Troquelada Pictórica</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Troquelada Pictórica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #eee;
+            line-height: 1.7;
+            margin: 0;
+            padding: 40px;
+        }
 
-<link rel="stylesheet" href="styles.css">
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+        }
 
-<style>
-.intro { display:grid; grid-template-columns:1fr; gap:18px; }
-
-.section-title {
-  color:var(--accent);
-  font-weight:600;
-  margin:0 0 6px;
-}
-
-article p { margin:0 0 14px; color:var(--muted); }
-
-.highlight {
-  background: linear-gradient(90deg, rgba(231,207,166,0.08), rgba(231,207,166,0.02));
-  padding:12px;
-  border-radius:8px;
-  border:1px solid rgba(231,207,166,0.04);
-  color:#f6eadf;
-}
-
-blockquote {
-  margin:0;
-  padding:12px 18px;
-  border-left:3px solid rgba(231,207,166,0.12);
-  color:#efe6d6;
-  background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
-  border-radius:6px;
-}
-
-footer {
-  margin-top:18px;
-  font-size:13px;
-  color:#978b7d;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-
-.meta {
-  display:flex;
-  gap:12px;
-  align-items:center;
-}
-
-@media (min-width:760px) {
-  .intro { grid-template-columns: 1fr 340px; }
-}
-
-/* efecto sutil de luz interior en pseudo-relieve */
-.relief {
-  position:relative;
-  padding:18px;
-  border-radius:10px;
-  overflow:hidden;
-}
-.relief::before {
-  content:"";
-  position:absolute;
-  inset:-40% -30% auto -30%;
-  height:180%;
-  background:radial-gradient(closest-side, rgba(231,207,166,0.06), transparent 35%);
-  transform:rotate(-18deg);
-  pointer-events:none;
-}
-</style>
+        .content {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
+        }
+    </style>
 </head>
 
 <body>
-<div class="wrap">
 
-<header>
-  <div class="logo" aria-hidden>LT</div>
-  <div>
     <h1>La Troquelada Pictórica</h1>
-    <p class="lead">Lenguaje pictórico: materia, luz interior y fragmentación del ser contemporáneo.</p>
-  </div>
-</header>
 
-<main class="card">
-  <div class="intro">
+    <div class="content">
+        <p>
+            <strong>La Troquelada Pictórica</strong> es el estilo que define mi obra y mi búsqueda artística. 
+            Surge como una exploración profunda de la materia, la luz interior y la fragmentación del ser humano contemporáneo.
+        </p>
 
-    <section class="relief">
-      <h2 class="section-title">Concepto</h2>
-      <article>
+        <p>
+            En este lenguaje pictórico, la pintura deja de ser superficie para convertirse en cuerpo, relieve y presencia. 
+            La materia se troquela, se abre, se superpone y respira entre capas densas, texturas experimentales y vacíos cargados de energía. 
+            Cada gesto, cada corte y cada superposición responde a una intención emocional y simbólica.
+        </p>
 
-        <p>La <strong>Troquelada Pictórica</strong> es el estilo que define mi obra y mi búsqueda artística. Surge como una exploración profunda de la materia, la luz interior y la fragmentación del ser humano contemporáneo.</p>
+        <p>
+            La Troquelada Pictórica reinterpreta la luz como un estallido interior: una contraluz emocional que emerge desde las profundidades del color y revela la lucha, la memoria y la fragmentación que habita en cada ser humano.
+        </p>
 
-        <p>En este lenguaje pictórico, la pintura deja de ser superficie para convertirse en <strong>cuerpo, relieve y presencia</strong>. La materia se troquela, se abre, se superpone y respira entre capas densas, texturas experimentales y vacíos cargados de energía. Cada gesto, cada corte y cada superposición responde a una intención emocional y simbólica.</p>
+        <p>
+            Este estilo propone una crítica directa al arte contemporáneo vacío y sin oficio. 
+            Reivindica la técnica, el proceso, el trabajo minucioso de la materia y la fuerza de una obra que se construye capa por capa, gesto por gesto.
+        </p>
 
-        <p class="highlight">La Troquelada Pictórica reinterpreta la luz como un estallido interior: una contraluz emocional que emerge desde las profundidades del color y revela la lucha, la memoria y la fragmentación que habita en cada ser humano.</p>
+        <p>
+            <strong>Mi pintura es una acción física y espiritual:</strong><br>
+            materia transformada, luz desgarrada, fragmentación convertida en lenguaje.
+        </p>
+    </div>
 
-        <p>Este estilo propone una crítica directa al arte contemporáneo vacío y sin oficio. Reivindica la técnica, el proceso, el trabajo minucioso de la materia y la fuerza de una obra que se construye capa por capa, gesto por gesto.</p>
-
-        <blockquote>Mi pintura es una acción física y espiritual: materia transformada, luz desgarrada, fragmentación convertida en lenguaje.</blockquote>
-
-      </article>
-    </section>
-
-    <aside>
-      <h3 class="section-title">Ficha breve</h3>
-      <div style="margin-top:8px;color:var(--muted);font-size:14px">
-        <p><strong>Nombre:</strong> La Troquelada Pictórica</p>
-        <p><strong>Enfoque:</strong> Materia, luz interior, fragmentación</p>
-        <p><strong>Técnica:</strong> Capa, relieve, cortes y texturas experimentales</p>
-        <p><strong>Intención:</strong> Reivindicar oficio y proceso</p>
-      </div>
-
-      <h3 class="section-title" style="margin-top:18px">Usos</h3>
-      <ul style="margin-top:8px;color:var(--muted);line-height:1.5">
-        <li>Descripción para sitio web / catálogo</li>
-        <li>Texto para exposiciones y curaduría</li>
-        <li>Material de prensa y comunicados</li>
-      </ul>
-    </aside>
-
-  </div>
-
-  <footer>
-    <div class="meta">Soler Arte · La Troquelada Pictórica</div>
-    <div>Archivo generado: <time datetime="2025-11-14">14 noviembre 2025</time></div>
-  </footer>
-
-</main>
-
-</div>
 </body>
 </html>
